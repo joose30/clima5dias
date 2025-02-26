@@ -1,4 +1,4 @@
-// screens/Weather.tsx
+
 import React, { useEffect, useState } from 'react';
 import { ActivityIndicator, FlatList, StyleSheet, View, useWindowDimensions } from 'react-native';
 import WeatherCard from '../Components/WeatherCard';
