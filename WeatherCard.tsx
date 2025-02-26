@@ -20,9 +20,9 @@ const WeatherCard = ({
   icon,
 }: WeatherCardProps) => {
   const getBackgroundColor = (temp: number) => {
-    if (temp < 20) return "#4C9EEB";  // Azul frío
+    if (temp < 20) return "#4C9EEB";  // Azul 
     if (temp >= 21 && temp <= 30) return "#FFCC00";  // Amarillo
-    return "#FF5733";  // Naranja cálido
+    return "#FF5733";  // Naranja 
   };
 
   const formatDate = (dateString: string) => {
